@@ -1,4 +1,4 @@
-@media screen and (min-width:400px) {
+@media screen and (min-width: 400px) {
 
     * {
         box-sizing: border-box;
@@ -80,22 +80,60 @@
     }
 }
 
-@media screen and (min-width:992px) {
-    h1 {
+@media screen and (min-width: 800px) {
 
-
+    .hidden-on-desktop {
+        display: none;
     }
 
 
+    body {
 
+    }
 
+    h1 {
+        justify-content: flex-start;
+        margin: 5px 20px 5px 20px;
+        float: left;
+    }
 
+    li {
+        display: flex;
+        justify-content: flex-start;
+        padding: 5px;
+        width: auto;
+        background: white;
+        flex-direction: row-reverse;
+        float: right;
+        text-decoration: underline;
+    }
+
+    ul.nav-links {
+
+    }
+
+    img {
+        margin-top: 75px;
+        display: flex;
+        margin-left: 75px;
+        margin-right: 75px;
+        height: 400px;
+        width: 900px;
+    }
+
+#main.main {
 
 }
 
 
+    /*!*.sub-section {*!*/
+    /*!*    float: right;*!*/
+    /*}*/
+}
 
+.sub-section {
 
+}
 
 /*a {*/
 /*    margin: auto;*/
@@ -104,11 +142,6 @@
 /*    !*flex-direction: column;*!*/
 /*    !*justify-content: end;*!*/
 /*}*/
-
-
-
-
-
 
 
 /*
