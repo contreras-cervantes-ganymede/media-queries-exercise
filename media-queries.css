@@ -93,20 +93,21 @@
 
     h1 {
         justify-content: flex-start;
-        margin: 5px 20px 5px 20px;
+        margin: 5px 20px 5px 50px;
         float: left;
         font-size: 2.5em;
     }
 
     li {
         display: flex;
-        justify-content: flex-start;
+        /*justify-content: flex-end;*/
         padding: 5px;
         width: auto;
         background: white;
-        flex-direction: row-reverse;
+        /*flex-direction: ;*/
         float: right;
         text-decoration: underline;
+        margin-right: 50px;
     }
 
     ul.nav-links {
@@ -116,38 +117,39 @@
     .header-img {
         margin-left: 0;
         margin-right: 0;
+        width: 100%;
     }
 
     img {
-        margin-top: 75px;
+        margin-top: 40px;
         display: flex;
         margin-left: 50px;
         margin-right: 50px;
-        height: 400px;
-        width: 900px;
+        height: 75%;
+        width: 100%;
     }
 
-#main.main {
 
+    #main {
+        float: left;
+        width: 75%;
+        clear: right;
+        height:400px;
+        padding:40px;
+    }
+
+    .sub-section {
+        float:right;
+        width: 25%;
+        height:400px;
+        padding:40px;
+    }
+
+    footer{
+        padding:40px;
+    }
 }
 
-
-    /*!*.sub-section {*!*/
-    /*!*    float: right;*!*/
-    /*}*/
-}
-
-.sub-section {
-
-}
-
-/*a {*/
-/*    margin: auto;*/
-/*    display: flex;*/
-/*    align-self: center;*/
-/*    !*flex-direction: column;*!*/
-/*    !*justify-content: end;*!*/
-/*}*/
 
 
 /*
